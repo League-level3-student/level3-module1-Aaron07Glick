@@ -14,20 +14,22 @@ ArrayList<String> words = new ArrayList<String>();
 		words.add("Four");
 		words.add("Five");
 		//3. Print all the Strings using a standard for-loop
-		for (int i = 0; i < args.length + 1; i++) {
-			System.out.println(words);
+		for (int i = 0; i < words.size(); i++) {
+			System.out.println(words.get(i));
 		}
-		
+	
 		//4. Print all the Strings using a for-each loop
 		for (String s: words) {
 			System.out.println(s);
 		}
 		//5. Print only the even numbered elements in the list.
-		for (int i = 0; i < args.length + 1; i+=2) {
+		for (int i = 0; i < words.size(); i+= 2) {
 			System.out.println(words.get(i));
 		}
 		//6. Print all the Strings in reverse order.
-		
+		for (int i = 0; i < words.size(); i++) {
+			System.out.println(words.get(4-i));
+		}
 		//7. Print only the Strings that have the letter 'e' in them.
 	}
 }
