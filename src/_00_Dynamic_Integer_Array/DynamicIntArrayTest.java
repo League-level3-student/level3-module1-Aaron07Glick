@@ -1,8 +1,10 @@
 package _00_Dynamic_Integer_Array;
 
-import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
+import org.junit.*;
+import static org.junit.Assert.*;
+ 
+import java.util.*;
 
 class DynamicIntArrayTest {
 
